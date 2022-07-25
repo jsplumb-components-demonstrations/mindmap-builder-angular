@@ -14,7 +14,7 @@ export class AppComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
 
-    this.mindmap.loadUrl("assets/test1.json", () => {
+    this.mindmap.loadUrl("assets/example-mindmap.json", () => {
       this.mindmap.zoomToFit()
     })
   }
